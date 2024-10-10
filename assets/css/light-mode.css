@@ -3740,8 +3740,8 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
-			background-color: #A9A9A9;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-color: #808080;
+			background-image: #808080;
 			background-size: auto,
  cover;
 			background-position: center,
