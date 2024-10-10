@@ -5,7 +5,8 @@
 		<title>Ashley Gelber</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- <link rel="stylesheet" href="assets/css/dark-mode.css" /> -->
+		<link rel="stylesheet" href="assets/css/dark-mode.css" id="theme-style"> <!-- Default to light mode -->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -16,7 +17,10 @@
 				<!-- Header -->
 					<header id="header" class="alt">
 						<h1><a href="index.html">Back to Top</a></h1>
+						<h1></h1>
 						<nav>
+							<button id="theme-toggle">Switch Mode</button>
+							<script src="script.js"></script>
 							<a href="#menu">Menu</a>
 						</nav>
 					</header>
@@ -24,6 +28,7 @@
 				<!-- Menu -->
 					<nav id="menu">
 						<div class="inner">
+							
 							<h2>Menu</h2>
 							<ul class="links">
 								<li><a href="index.html" class="scroll-button">Home</a></li>
@@ -51,7 +56,7 @@
 					<section id="wrapper">
 
 						<!-- One -->
-							<section id="education" class="wrapper spotlight style1">                       
+							<section id="education" class="wrapper spotlight style3">                       
 								<div class="inner">
                                     <div class="content">
                                         <h2 class="major">Education</h2>
@@ -183,7 +188,7 @@
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
 							<ul class="contact">
-								<li class="icon solid fa-envelope">ashsgelb@umich.edu</li>
+								<li class="icon solid fa-envelope"><a href="mailto:ashsgelb@umich.edu">Email</a></li>
 								<li class="icon brands fa-github"><a href="https://github.com/ashsgelb">GitHub</a></li>
 								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/ashley-gelber-227669239/">LinkedIn</a></li>
 							</ul>
